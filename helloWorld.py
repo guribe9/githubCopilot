@@ -1,12 +1,13 @@
 # explain the code below
+"""
+This script defines a function `my_function` that prints the provided text.
+Functions:
+    my_function(text: str) -> None:
+        Prints the provided text.
+Example:
+"""
 
 def my_function(text):
-    """
-    This function prints the provided text.
-    
-    Args:
-        text (str): The text to be printed.
-    """
     print(text)
 
 my_function("Hello, World!")
